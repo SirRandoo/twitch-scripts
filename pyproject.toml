@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "twitch-scripts"
+version = "0.1.0"
+description = "A small package full of scripts for automating the boring tasks of developing for Twitch, a livestreaming platform."
+authors = ["SirRandoo <8146689+SirRandoo@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = {extras = ["lxml"], version = "^4.12.3"}
+aiohttp = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
